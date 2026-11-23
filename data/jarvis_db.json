@@ -1,0 +1,1107 @@
+{
+  "users": [
+    {
+      "id": "usr_jarvis_master",
+      "email": "operator@jarvis-os.ai",
+      "name": "Umar Basha",
+      "role": "admin",
+      "languagePreference": "en",
+      "voiceSpeed": 1.18,
+      "voiceName": "Neural Male Deep",
+      "theme": "dark",
+      "experimentalRepeat": false,
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_initial",
+      "userId": "usr_jarvis_master",
+      "title": "System Initialization & Overview",
+      "createdAt": "2026-11-23T08:30:27.295Z",
+      "updatedAt": "2026-11-23T08:30:39.888Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1",
+      "conversationId": "conv_initial",
+      "role": "assistant",
+      "content": "Welcome to JARVIS AI 2.0. Operating system ready. English, Telugu, and Hindi natural voice interfaces active. All project, scheduling, memory, and executive modules synchronized.",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "msg_1795422627294_u",
+      "conversationId": "conv_initial",
+      "role": "user",
+      "content": "Jarvis, remind me to call the client at 4 PM.",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.294Z"
+    },
+    {
+      "id": "msg_1795422627302_a",
+      "conversationId": "conv_initial",
+      "role": "assistant",
+      "content": "Created task and scheduled reminder for \"Call Client and Review Deliverables\".",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.302Z",
+      "intent": "task_create",
+      "actionTaken": "Created task and reminder: Call Client and Review Deliverables"
+    },
+    {
+      "id": "msg_1795422627336_u",
+      "conversationId": "conv_initial",
+      "role": "user",
+      "content": "Jarvis, repu morning 7 ki workout reminder pettu.",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.336Z"
+    },
+    {
+      "id": "msg_1795422627347_a",
+      "conversationId": "conv_initial",
+      "role": "assistant",
+      "content": "Created task and scheduled reminder for \"Morning Workout Routine\".",
+      "language": "te",
+      "createdAt": "2026-11-23T08:30:27.347Z",
+      "intent": "task_create",
+      "actionTaken": "Created task and reminder: Morning Workout Routine"
+    },
+    {
+      "id": "msg_1795422627372_u",
+      "conversationId": "conv_initial",
+      "role": "user",
+      "content": "Jarvis, kal mera interview hai, mujhe prepare karwao.",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.372Z"
+    },
+    {
+      "id": "msg_1795422627374_a",
+      "conversationId": "conv_initial",
+      "role": "assistant",
+      "content": "JARVIS received: \"Jarvis, kal mera interview hai, mujhe prepare karwao.\". All modules synchronized.",
+      "language": "hi",
+      "createdAt": "2026-11-23T08:30:27.374Z",
+      "intent": "general_chat",
+      "actionTaken": "Processed general query"
+    },
+    {
+      "id": "msg_1795422627385_u",
+      "conversationId": "conv_initial",
+      "role": "user",
+      "content": "Jarvis, naa project progress entha undi?",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.385Z"
+    },
+    {
+      "id": "msg_1795422627391_a",
+      "conversationId": "conv_initial",
+      "role": "assistant",
+      "content": "Primary project \"JARVIS AI 2.0 Core Architecture\" is at 88% progress with 3 of 4 milestones achieved.",
+      "language": "te",
+      "createdAt": "2026-11-23T08:30:27.391Z",
+      "intent": "project_query",
+      "actionTaken": "Project progress query for JARVIS AI 2.0 Core Architecture"
+    },
+    {
+      "id": "msg_1795422627412_u",
+      "conversationId": "conv_initial",
+      "role": "user",
+      "content": "I finished my workout.",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.412Z"
+    },
+    {
+      "id": "msg_1795422627428_a",
+      "conversationId": "conv_initial",
+      "role": "assistant",
+      "content": "Task \"Morning Workout Routine\" marked as complete. Reminder closed.",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.428Z",
+      "intent": "task_complete",
+      "actionTaken": "Completed task: Morning Workout Routine"
+    },
+    {
+      "id": "msg_1795422639777_u",
+      "conversationId": "conv_initial",
+      "role": "user",
+      "content": "Jarvis, remind me to call the client at 4 PM.",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:39.777Z"
+    },
+    {
+      "id": "msg_1795422639790_a",
+      "conversationId": "conv_initial",
+      "role": "assistant",
+      "content": "Created task and scheduled reminder for \"Call Client and Review Deliverables\".",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:39.790Z",
+      "intent": "task_create",
+      "actionTaken": "Created task and reminder: Call Client and Review Deliverables"
+    },
+    {
+      "id": "msg_1795422639799_u",
+      "conversationId": "conv_initial",
+      "role": "user",
+      "content": "Jarvis, repu morning 7 ki workout reminder pettu.",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:39.799Z"
+    },
+    {
+      "id": "msg_1795422639810_a",
+      "conversationId": "conv_initial",
+      "role": "assistant",
+      "content": "Created task and scheduled reminder for \"Morning Workout Routine\".",
+      "language": "te",
+      "createdAt": "2026-11-23T08:30:39.810Z",
+      "intent": "task_create",
+      "actionTaken": "Created task and reminder: Morning Workout Routine"
+    },
+    {
+      "id": "msg_1795422639819_u",
+      "conversationId": "conv_initial",
+      "role": "user",
+      "content": "Jarvis, kal mera interview hai, mujhe prepare karwao.",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:39.819Z"
+    },
+    {
+      "id": "msg_1795422639822_a",
+      "conversationId": "conv_initial",
+      "role": "assistant",
+      "content": "JARVIS received: \"Jarvis, kal mera interview hai, mujhe prepare karwao.\". All modules synchronized.",
+      "language": "hi",
+      "createdAt": "2026-11-23T08:30:39.822Z",
+      "intent": "general_chat",
+      "actionTaken": "Processed general query"
+    },
+    {
+      "id": "msg_1795422639843_u",
+      "conversationId": "conv_initial",
+      "role": "user",
+      "content": "Jarvis, naa project progress entha undi?",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:39.843Z"
+    },
+    {
+      "id": "msg_1795422639850_a",
+      "conversationId": "conv_initial",
+      "role": "assistant",
+      "content": "Primary project \"Autonomous Edge Speech Pipeline\" is at 0% progress with 0 of 0 milestones achieved.",
+      "language": "te",
+      "createdAt": "2026-11-23T08:30:39.850Z",
+      "intent": "project_query",
+      "actionTaken": "Project progress query for Autonomous Edge Speech Pipeline"
+    },
+    {
+      "id": "msg_1795422639873_u",
+      "conversationId": "conv_initial",
+      "role": "user",
+      "content": "I finished my workout.",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:39.873Z"
+    },
+    {
+      "id": "msg_1795422639888_a",
+      "conversationId": "conv_initial",
+      "role": "assistant",
+      "content": "Task \"Morning Workout Routine\" marked as complete. Reminder closed.",
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:39.888Z",
+      "intent": "task_complete",
+      "actionTaken": "Completed task: Morning Workout Routine"
+    }
+  ],
+  "memories": [
+    {
+      "id": "mem_1795422639921",
+      "userId": "usr_jarvis_master",
+      "category": "preference",
+      "content": "Operator prefers morning workout at 06:30 AM.",
+      "normalizedSummary": "Workout: 06:30 AM daily routine",
+      "tags": [
+        "routine",
+        "fitness"
+      ],
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:39.921Z",
+      "updatedAt": "2026-11-23T08:30:39.921Z"
+    },
+    {
+      "id": "mem_1795422639808",
+      "userId": "usr_jarvis_master",
+      "category": "routine",
+      "content": "User set reminder: Morning Workout Routine at 2026-11-24T07:00:00Z",
+      "normalizedSummary": "Reminder for Morning Workout Routine (daily) saved.",
+      "tags": [
+        "te",
+        "reminder",
+        "auto_normalized"
+      ],
+      "language": "te",
+      "createdAt": "2026-11-23T08:30:39.808Z",
+      "updatedAt": "2026-11-23T08:30:39.808Z"
+    },
+    {
+      "id": "mem_1795422639787",
+      "userId": "usr_jarvis_master",
+      "category": "routine",
+      "content": "User set reminder: Call Client and Review Deliverables at 2026-11-24T16:00:00Z",
+      "normalizedSummary": "Reminder for Call Client and Review Deliverables (none) saved.",
+      "tags": [
+        "en",
+        "reminder",
+        "auto_normalized"
+      ],
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:39.787Z",
+      "updatedAt": "2026-11-23T08:30:39.787Z"
+    },
+    {
+      "id": "mem_1795422627490",
+      "userId": "usr_jarvis_master",
+      "category": "preference",
+      "content": "Operator prefers morning workout at 06:30 AM.",
+      "normalizedSummary": "Workout: 06:30 AM daily routine",
+      "tags": [
+        "routine",
+        "fitness"
+      ],
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.490Z",
+      "updatedAt": "2026-11-23T08:30:27.490Z"
+    },
+    {
+      "id": "mem_1795422627344",
+      "userId": "usr_jarvis_master",
+      "category": "routine",
+      "content": "User set reminder: Morning Workout Routine at 2026-11-24T07:00:00Z",
+      "normalizedSummary": "Reminder for Morning Workout Routine (daily) saved.",
+      "tags": [
+        "te",
+        "reminder",
+        "auto_normalized"
+      ],
+      "language": "te",
+      "createdAt": "2026-11-23T08:30:27.344Z",
+      "updatedAt": "2026-11-23T08:30:27.344Z"
+    },
+    {
+      "id": "mem_1795422627301",
+      "userId": "usr_jarvis_master",
+      "category": "routine",
+      "content": "User set reminder: Call Client and Review Deliverables at 2026-11-24T16:00:00Z",
+      "normalizedSummary": "Reminder for Call Client and Review Deliverables (none) saved.",
+      "tags": [
+        "en",
+        "reminder",
+        "auto_normalized"
+      ],
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.301Z",
+      "updatedAt": "2026-11-23T08:30:27.301Z"
+    },
+    {
+      "id": "mem_1",
+      "userId": "usr_jarvis_master",
+      "category": "preference",
+      "content": "Prefers concise spoken summaries with visual drill-down tables for technical metrics.",
+      "normalizedSummary": "Brief spoken answers, detailed visual cards.",
+      "tags": [
+        "voice",
+        "preference",
+        "ui"
+      ],
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.295Z",
+      "updatedAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "mem_2",
+      "userId": "usr_jarvis_master",
+      "category": "routine",
+      "content": "Morning workout scheduled at 06:30 AM every weekday followed by engineering standup.",
+      "normalizedSummary": "Daily workout 06:30 AM weekdays; Standup 09:30 AM.",
+      "tags": [
+        "health",
+        "routine",
+        "fitness"
+      ],
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.295Z",
+      "updatedAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "mem_3",
+      "userId": "usr_jarvis_master",
+      "category": "goal",
+      "content": "Complete JARVIS AI 2.0 production deployment and launch SaaS client workspace.",
+      "normalizedSummary": "Deliver JARVIS AI 2.0 system with multilingual voice & project engine.",
+      "tags": [
+        "career",
+        "projects",
+        "milestone"
+      ],
+      "language": "en",
+      "createdAt": "2026-11-23T08:30:27.295Z",
+      "updatedAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "mem_4",
+      "userId": "usr_jarvis_master",
+      "category": "preference",
+      "content": "Repu morning 7 ki workout reminder pettu (Telugu request registered).",
+      "normalizedSummary": "Morning workout scheduled for 07:00 AM.",
+      "tags": [
+        "telugu",
+        "workout",
+        "normalized_cross_lang"
+      ],
+      "language": "te",
+      "createdAt": "2026-11-23T08:30:27.295Z",
+      "updatedAt": "2026-11-23T08:30:27.295Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_1795422639802",
+      "userId": "usr_jarvis_master",
+      "title": "Morning Workout Routine",
+      "description": "Created via voice command: \"Jarvis, repu morning 7 ki workout reminder pettu.\"",
+      "category": "health",
+      "priority": "high",
+      "status": "completed",
+      "dueDate": "2026-11-24T07:00:00Z",
+      "subtasks": [],
+      "sourceLanguage": "te",
+      "createdAt": "2026-11-23T08:30:39.802Z",
+      "completedAt": "2026-11-23T08:30:39.878Z"
+    },
+    {
+      "id": "task_1795422639781",
+      "userId": "usr_jarvis_master",
+      "title": "Call Client and Review Deliverables",
+      "description": "Created via voice command: \"Jarvis, remind me to call the client at 4 PM.\"",
+      "category": "work",
+      "priority": "high",
+      "status": "pending",
+      "dueDate": "2026-11-24T16:00:00Z",
+      "subtasks": [],
+      "sourceLanguage": "en",
+      "createdAt": "2026-11-23T08:30:39.781Z"
+    },
+    {
+      "id": "task_1795422627339",
+      "userId": "usr_jarvis_master",
+      "title": "Morning Workout Routine",
+      "description": "Created via voice command: \"Jarvis, repu morning 7 ki workout reminder pettu.\"",
+      "category": "health",
+      "priority": "high",
+      "status": "completed",
+      "dueDate": "2026-11-24T07:00:00Z",
+      "subtasks": [],
+      "sourceLanguage": "te",
+      "createdAt": "2026-11-23T08:30:27.339Z",
+      "completedAt": "2026-11-23T08:30:27.419Z"
+    },
+    {
+      "id": "task_1795422627296",
+      "userId": "usr_jarvis_master",
+      "title": "Call Client and Review Deliverables",
+      "description": "Created via voice command: \"Jarvis, remind me to call the client at 4 PM.\"",
+      "category": "work",
+      "priority": "high",
+      "status": "pending",
+      "dueDate": "2026-11-24T16:00:00Z",
+      "subtasks": [],
+      "sourceLanguage": "en",
+      "createdAt": "2026-11-23T08:30:27.296Z"
+    },
+    {
+      "id": "task_1",
+      "userId": "usr_jarvis_master",
+      "projectId": "proj_1",
+      "title": "Review production deployment checklist",
+      "description": "Verify SSL certificates, CORS policies, rate limits, and push notification endpoints.",
+      "category": "work",
+      "priority": "urgent",
+      "status": "pending",
+      "dueDate": "2026-11-24T18:00:00Z",
+      "subtasks": [
+        {
+          "id": "st_1",
+          "title": "Verify service worker push hooks",
+          "completed": true
+        },
+        {
+          "id": "st_2",
+          "title": "Validate rate limiter headers",
+          "completed": false
+        },
+        {
+          "id": "st_3",
+          "title": "Audit database backup cycle",
+          "completed": false
+        }
+      ],
+      "sourceLanguage": "en",
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "task_2",
+      "userId": "usr_jarvis_master",
+      "title": "Morning cardiovascular workout",
+      "description": "30-minute high-intensity cardio session followed by stretching.",
+      "category": "health",
+      "priority": "high",
+      "status": "pending",
+      "dueDate": "2026-11-24T06:30:00Z",
+      "subtasks": [],
+      "sourceLanguage": "te",
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "task_3",
+      "userId": "usr_jarvis_master",
+      "projectId": "proj_2",
+      "title": "Prepare business pitch deck for Q1 investors",
+      "description": "Structure 12-slide executive deck highlighting revenue growth and unit economics.",
+      "category": "business",
+      "priority": "high",
+      "status": "in_progress",
+      "dueDate": "2026-11-25T15:00:00Z",
+      "subtasks": [
+        {
+          "id": "st_4",
+          "title": "Compile market TAM/SAM analysis",
+          "completed": true
+        },
+        {
+          "id": "st_5",
+          "title": "Draft financial projection slide",
+          "completed": false
+        }
+      ],
+      "sourceLanguage": "en",
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "task_4",
+      "userId": "usr_jarvis_master",
+      "title": "Revise Distributed Systems Chapter 4",
+      "description": "Prepare notes on Paxos, Raft consensus, and vector clocks for upcoming technical evaluation.",
+      "category": "education",
+      "priority": "medium",
+      "status": "pending",
+      "dueDate": "2026-11-26T20:00:00Z",
+      "subtasks": [],
+      "sourceLanguage": "hi",
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "rem_1795422639802",
+      "userId": "usr_jarvis_master",
+      "taskId": "task_1795422639802",
+      "title": "Morning Workout Routine",
+      "scheduledTime": "2026-11-24T07:00:00Z",
+      "recurrence": "daily",
+      "ringtone": "chime",
+      "voiceAnnouncement": true,
+      "status": "completed",
+      "createdAt": "2026-11-23T08:30:39.802Z"
+    },
+    {
+      "id": "rem_1795422639781",
+      "userId": "usr_jarvis_master",
+      "taskId": "task_1795422639781",
+      "title": "Call Client and Review Deliverables",
+      "scheduledTime": "2026-11-24T16:00:00Z",
+      "recurrence": "none",
+      "ringtone": "chime",
+      "voiceAnnouncement": true,
+      "status": "active",
+      "createdAt": "2026-11-23T08:30:39.781Z"
+    },
+    {
+      "id": "rem_1795422627339",
+      "userId": "usr_jarvis_master",
+      "taskId": "task_1795422627339",
+      "title": "Morning Workout Routine",
+      "scheduledTime": "2026-11-24T07:00:00Z",
+      "recurrence": "daily",
+      "ringtone": "chime",
+      "voiceAnnouncement": true,
+      "status": "completed",
+      "createdAt": "2026-11-23T08:30:27.339Z"
+    },
+    {
+      "id": "rem_1795422627296",
+      "userId": "usr_jarvis_master",
+      "taskId": "task_1795422627296",
+      "title": "Call Client and Review Deliverables",
+      "scheduledTime": "2026-11-24T16:00:00Z",
+      "recurrence": "none",
+      "ringtone": "chime",
+      "voiceAnnouncement": true,
+      "status": "active",
+      "createdAt": "2026-11-23T08:30:27.296Z"
+    },
+    {
+      "id": "rem_1",
+      "userId": "usr_jarvis_master",
+      "taskId": "task_2",
+      "title": "Morning Workout & Health Routine",
+      "scheduledTime": "2026-11-24T06:30:00Z",
+      "recurrence": "daily",
+      "ringtone": "chime",
+      "voiceAnnouncement": true,
+      "status": "active",
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "rem_2",
+      "userId": "usr_jarvis_master",
+      "taskId": "task_1",
+      "title": "Call Client & Review Deployment Checklist",
+      "scheduledTime": "2026-11-24T16:00:00Z",
+      "recurrence": "none",
+      "ringtone": "urgent",
+      "voiceAnnouncement": true,
+      "status": "active",
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "rem_3",
+      "userId": "usr_jarvis_master",
+      "title": "Executive Team Sync Reminder",
+      "scheduledTime": "2026-11-24T10:00:00Z",
+      "recurrence": "weekly",
+      "ringtone": "vocal",
+      "voiceAnnouncement": true,
+      "status": "active",
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1795422639940",
+      "userId": "usr_jarvis_master",
+      "name": "Autonomous Edge Speech Pipeline",
+      "description": "",
+      "objective": "Implement sub-500ms neural streaming audio",
+      "category": "technical",
+      "startDate": "2026-11-23",
+      "deadline": "2026-12-31",
+      "priority": "high",
+      "status": "active",
+      "progressPercentage": 0,
+      "milestones": [],
+      "dependencies": [],
+      "budgetSpent": 0,
+      "resources": [],
+      "nextAction": "Initialize project blueprint",
+      "createdAt": "2026-11-23T08:30:39.940Z",
+      "updatedAt": "2026-11-23T08:30:39.940Z"
+    },
+    {
+      "id": "proj_1795422627537",
+      "userId": "usr_jarvis_master",
+      "name": "Autonomous Edge Speech Pipeline",
+      "description": "",
+      "objective": "Implement sub-500ms neural streaming audio",
+      "category": "technical",
+      "startDate": "2026-11-23",
+      "deadline": "2026-12-31",
+      "priority": "high",
+      "status": "active",
+      "progressPercentage": 0,
+      "milestones": [],
+      "dependencies": [],
+      "budgetSpent": 0,
+      "resources": [],
+      "nextAction": "Initialize project blueprint",
+      "createdAt": "2026-11-23T08:30:27.537Z",
+      "updatedAt": "2026-11-23T08:30:27.537Z"
+    },
+    {
+      "id": "proj_1",
+      "userId": "usr_jarvis_master",
+      "name": "JARVIS AI 2.0 Core Architecture",
+      "description": "Design and rollout of the next-generation multilingual AI operating system.",
+      "objective": "Deliver low-latency voice, intelligent memory, project governance, and PWA capabilities.",
+      "category": "technical",
+      "startDate": "2026-11-01",
+      "deadline": "2026-12-15",
+      "priority": "urgent",
+      "status": "active",
+      "progressPercentage": 88,
+      "milestones": [
+        {
+          "id": "m_1",
+          "title": "System Architecture & Schema",
+          "targetDate": "2026-11-05",
+          "completed": true
+        },
+        {
+          "id": "m_2",
+          "title": "Multilingual Voice Engine",
+          "targetDate": "2026-11-15",
+          "completed": true
+        },
+        {
+          "id": "m_3",
+          "title": "Application Modules & UI System",
+          "targetDate": "2026-11-24",
+          "completed": true
+        },
+        {
+          "id": "m_4",
+          "title": "End-to-End Test Suite & Verification",
+          "targetDate": "2026-11-30",
+          "completed": false
+        }
+      ],
+      "dependencies": [
+        "Node Runtime",
+        "Web Speech API",
+        "PWA Service Worker"
+      ],
+      "budgetEstimated": 12000,
+      "budgetSpent": 4200,
+      "resources": [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Framer Motion"
+      ],
+      "nextAction": "Execute full multilingual test suite across English, Telugu, and Hindi voice triggers.",
+      "createdAt": "2026-11-23T08:30:27.295Z",
+      "updatedAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "proj_2",
+      "userId": "usr_jarvis_master",
+      "name": "Enterprise Client Workspace Launch",
+      "description": "Commercial rollout of AI executive tools for enterprise operators.",
+      "objective": "Sign first 5 enterprise pilot partnerships with automated reporting workflows.",
+      "category": "business",
+      "startDate": "2026-11-10",
+      "deadline": "2026-12-30",
+      "priority": "high",
+      "status": "active",
+      "progressPercentage": 62,
+      "milestones": [
+        {
+          "id": "m_5",
+          "title": "Enterprise Security Compliance Spec",
+          "targetDate": "2026-11-20",
+          "completed": true
+        },
+        {
+          "id": "m_6",
+          "title": "Pitch Deck & Client Presentations",
+          "targetDate": "2026-11-28",
+          "completed": false
+        }
+      ],
+      "dependencies": [
+        "JARVIS Core Architecture"
+      ],
+      "budgetEstimated": 25000,
+      "budgetSpent": 8500,
+      "resources": [
+        "Security Whitepaper",
+        "DOCX/PDF Generator"
+      ],
+      "nextAction": "Finalize financial slide with projected ROI figures.",
+      "createdAt": "2026-11-23T08:30:27.295Z",
+      "updatedAt": "2026-11-23T08:30:27.295Z"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "meet_1",
+      "userId": "usr_jarvis_master",
+      "title": "Weekly Technical Architecture Sync",
+      "startTime": "2026-11-24T10:00:00Z",
+      "endTime": "2026-11-24T11:00:00Z",
+      "platform": "google_meet",
+      "participants": [
+        "architect@jarvis-os.ai",
+        "dev-lead@jarvis-os.ai",
+        "operator@jarvis-os.ai"
+      ],
+      "link": "https://meet.google.com/abc-jarvis-sync",
+      "agenda": [
+        "Voice latency benchmarks",
+        "Database query optimization",
+        "PWA notification test reports"
+      ],
+      "prepNotes": "Bring latency logs from Telugu and Hindi voice streaming tests.",
+      "actionItems": [
+        "Benchmark TTS latency under 1.2s threshold",
+        "Validate service worker caching"
+      ],
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "meet_2",
+      "userId": "usr_jarvis_master",
+      "title": "Product Strategy & Roadmap Review",
+      "startTime": "2026-11-25T14:00:00Z",
+      "endTime": "2026-11-25T15:00:00Z",
+      "platform": "zoom",
+      "participants": [
+        "product@jarvis-os.ai",
+        "stakeholder@jarvis-os.ai"
+      ],
+      "link": "https://zoom.us/j/9876543210",
+      "agenda": [
+        "Q1 Feature prioritization",
+        "Autonomous booking engine guardrails"
+      ],
+      "prepNotes": "Review confirmation safeguards for financial transactions.",
+      "actionItems": [],
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "book_1",
+      "userId": "usr_jarvis_master",
+      "serviceType": "flight",
+      "title": "Bangalore to Hyderabad Round Trip",
+      "status": "options_ready",
+      "searchCriteria": {
+        "from": "BLR",
+        "to": "HYD",
+        "departureDate": "2026-11-28",
+        "passengers": "1",
+        "class": "Economy"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "name": "IndiGo 6E-452",
+          "details": "Non-stop | Dep: 07:15 AM - Arr: 08:25 AM | 1h 10m",
+          "price": "₹3,450",
+          "availability": "4 seats left",
+          "rating": 4.6
+        },
+        {
+          "id": "opt_2",
+          "name": "Air India AI-542",
+          "details": "Non-stop | Dep: 09:30 AM - Arr: 10:45 AM | 1h 15m",
+          "price": "₹3,820",
+          "availability": "6 seats left",
+          "rating": 4.4
+        }
+      ],
+      "userConfirmed": false,
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "book_2",
+      "userId": "usr_jarvis_master",
+      "serviceType": "hotel",
+      "title": "Hyderabad Hi-Tech City Business Hotel",
+      "status": "draft",
+      "searchCriteria": {
+        "city": "Hyderabad",
+        "area": "Hi-Tech City",
+        "checkIn": "2026-11-28",
+        "checkOut": "2026-11-30",
+        "guests": "1"
+      },
+      "options": [
+        {
+          "id": "opt_3",
+          "name": "The Westin Hyderabad Mindspace",
+          "details": "Deluxe King Room | High-speed Wi-Fi | Breakfast included",
+          "price": "₹8,500/night",
+          "availability": "Available",
+          "rating": 4.8
+        }
+      ],
+      "userConfirmed": false,
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job_1",
+      "userId": "usr_jarvis_master",
+      "company": "Apex AI Systems",
+      "role": "Principal AI Architect",
+      "status": "interviewing",
+      "appliedDate": "2026-11-10",
+      "interviewDate": "2026-11-26T15:30:00Z",
+      "notes": "Round 3: System Design and Multi-Agent Orchestration architecture.",
+      "salaryExpectation": "₹45,00,000 - ₹55,00,000 / yr"
+    },
+    {
+      "id": "job_2",
+      "userId": "usr_jarvis_master",
+      "company": "HyperScale Cloud Labs",
+      "role": "Staff Full-Stack Engineer",
+      "status": "applied",
+      "appliedDate": "2026-11-18",
+      "notes": "Submitted customized portfolio and JARVIS OS architecture case study.",
+      "salaryExpectation": "₹40,00,000 / yr"
+    }
+  ],
+  "exams": [
+    {
+      "id": "exam_1",
+      "userId": "usr_jarvis_master",
+      "subject": "Advanced Distributed Systems & Consensus",
+      "examDate": "2026-12-05T09:30:00Z",
+      "totalMarks": 100,
+      "topicsCovered": [
+        "Raft Consensus",
+        "Vector Clocks",
+        "Distributed Transactions (2PC/Saga)",
+        "Eventual Consistency"
+      ],
+      "revisionStatus": "revising"
+    },
+    {
+      "id": "exam_2",
+      "userId": "usr_jarvis_master",
+      "subject": "Deep Learning & Speech Recognition Architectures",
+      "examDate": "2026-12-12T14:00:00Z",
+      "totalMarks": 100,
+      "topicsCovered": [
+        "Conformer Models",
+        "CTC Loss",
+        "Neural Vocoders",
+        "Streaming Attention"
+      ],
+      "revisionStatus": "not_started"
+    }
+  ],
+  "research": [
+    {
+      "id": "res_1",
+      "userId": "usr_jarvis_master",
+      "topic": "Ultra-low Latency Neural Speech Streaming in 2026",
+      "summary": "Analysis of edge neural speech-to-text and streaming vocoders for sub-1.2s conversational voice response pipelines.",
+      "findings": [
+        "Chunked streaming inference achieves 340ms first-audio generation over WebSockets.",
+        "Client-side acoustic feature extraction lowers transmission payload by 42%.",
+        "Multilingual code-switching requires acoustic token normalization to avoid translation artifacts."
+      ],
+      "sources": [
+        {
+          "title": "Neural Audio Synthesizers Conference 2026",
+          "url": "https://arxiv.org/abs/2602.04512",
+          "date": "2026-02-14"
+        },
+        {
+          "title": "W3C Speech Streaming Working Group Report",
+          "url": "https://w3.org/TR/speech-streaming-2026",
+          "date": "2026-05-10"
+        }
+      ],
+      "risksAndLimitations": [
+        "High network jitter can introduce buffer starvation on mobile 4G networks.",
+        "Local Web Audio API processing increases CPU load by ~4% on mobile webviews."
+      ],
+      "opportunities": [
+        "Enables instant speech interruption with zero server roundtrip lag.",
+        "Provides seamless voice switching between Telugu, Hindi, and English."
+      ],
+      "recommendations": [
+        "Adopt streaming chunk sizes of 160ms for initial speech packets.",
+        "Implement aggressive local cache for standard confirmation vocalizations."
+      ],
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc_1795422639960",
+      "userId": "usr_jarvis_master",
+      "title": "Test Business Proposal",
+      "docType": "proposal",
+      "format": "docx",
+      "content": "Verification content for DOCX export.",
+      "createdAt": "2026-11-23T08:30:39.960Z"
+    },
+    {
+      "id": "doc_1795422639950",
+      "userId": "usr_jarvis_master",
+      "title": "Test Architecture Document",
+      "docType": "report",
+      "format": "pdf",
+      "content": "Verification content for PDF export.",
+      "createdAt": "2026-11-23T08:30:39.950Z"
+    },
+    {
+      "id": "doc_1795422627670",
+      "userId": "usr_jarvis_master",
+      "title": "Test Business Proposal",
+      "docType": "proposal",
+      "format": "docx",
+      "content": "Verification content for DOCX export.",
+      "createdAt": "2026-11-23T08:30:27.670Z"
+    },
+    {
+      "id": "doc_1795422627636",
+      "userId": "usr_jarvis_master",
+      "title": "Test Architecture Document",
+      "docType": "report",
+      "format": "pdf",
+      "content": "Verification content for PDF export.",
+      "createdAt": "2026-11-23T08:30:27.636Z"
+    },
+    {
+      "id": "doc_1",
+      "userId": "usr_jarvis_master",
+      "title": "JARVIS AI 2.0 System Architecture Overview",
+      "docType": "report",
+      "format": "pdf",
+      "content": "# JARVIS AI 2.0 System Architecture\n\nA comprehensive personal AI operating system combining multilingual voice intelligence, persistent memory, project management, and automated executive tooling.",
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    },
+    {
+      "id": "doc_2",
+      "userId": "usr_jarvis_master",
+      "title": "Q1 Enterprise Business Proposal",
+      "docType": "proposal",
+      "format": "docx",
+      "content": "# Executive Business Proposal: Intelligent Operating Systems for Leadership\n\nAutomating administrative overhead, scheduling conflicts, and data aggregation for high-output executives.",
+      "createdAt": "2026-11-23T08:30:27.295Z"
+    }
+  ],
+  "integrations": [
+    {
+      "id": "int_gmail",
+      "name": "Gmail & Google Workspace",
+      "category": "email",
+      "connected": true,
+      "permissionLevel": "PREPARE",
+      "lastSync": "10 minutes ago",
+      "authType": "oauth"
+    },
+    {
+      "id": "int_gcal",
+      "name": "Google Calendar",
+      "category": "calendar",
+      "connected": true,
+      "permissionLevel": "EXECUTE",
+      "lastSync": "Just now",
+      "authType": "oauth"
+    },
+    {
+      "id": "int_github",
+      "name": "GitHub Repositories",
+      "category": "developer",
+      "connected": true,
+      "permissionLevel": "READ",
+      "lastSync": "25 minutes ago",
+      "authType": "oauth"
+    },
+    {
+      "id": "int_slack",
+      "name": "Slack Workspace",
+      "category": "communication",
+      "connected": false,
+      "permissionLevel": "PREPARE",
+      "authType": "oauth"
+    },
+    {
+      "id": "int_zoom",
+      "name": "Zoom Meetings",
+      "category": "communication",
+      "connected": true,
+      "permissionLevel": "EXECUTE",
+      "lastSync": "1 hour ago",
+      "authType": "oauth"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_1795422639942",
+      "userId": "usr_jarvis_master",
+      "action": "Project Initialized",
+      "resource": "Project: Autonomous Edge Speech Pipeline",
+      "permissionLevelUsed": "EXECUTE",
+      "status": "success",
+      "timestamp": "2026-11-23T08:30:39.942Z",
+      "details": "Created project with 0 milestones"
+    },
+    {
+      "id": "aud_1795422639924",
+      "userId": "usr_jarvis_master",
+      "action": "Memory Stored",
+      "resource": "Memory [preference]",
+      "permissionLevelUsed": "EXECUTE",
+      "status": "success",
+      "timestamp": "2026-11-23T08:30:39.924Z",
+      "details": "Saved memory item: Workout: 06:30 AM daily routine"
+    },
+    {
+      "id": "aud_1795422639885",
+      "userId": "usr_jarvis_master",
+      "action": "Voice Task Completion",
+      "resource": "Task: Morning Workout Routine",
+      "permissionLevelUsed": "EXECUTE",
+      "status": "success",
+      "timestamp": "2026-11-23T08:30:39.885Z",
+      "details": "Task confirmed and marked complete via voice/text in EN."
+    },
+    {
+      "id": "aud_1795422627540",
+      "userId": "usr_jarvis_master",
+      "action": "Project Initialized",
+      "resource": "Project: Autonomous Edge Speech Pipeline",
+      "permissionLevelUsed": "EXECUTE",
+      "status": "success",
+      "timestamp": "2026-11-23T08:30:27.540Z",
+      "details": "Created project with 0 milestones"
+    },
+    {
+      "id": "aud_1795422627493",
+      "userId": "usr_jarvis_master",
+      "action": "Memory Stored",
+      "resource": "Memory [preference]",
+      "permissionLevelUsed": "EXECUTE",
+      "status": "success",
+      "timestamp": "2026-11-23T08:30:27.493Z",
+      "details": "Saved memory item: Workout: 06:30 AM daily routine"
+    },
+    {
+      "id": "aud_1795422627425",
+      "userId": "usr_jarvis_master",
+      "action": "Voice Task Completion",
+      "resource": "Task: Morning Workout Routine",
+      "permissionLevelUsed": "EXECUTE",
+      "status": "success",
+      "timestamp": "2026-11-23T08:30:27.425Z",
+      "details": "Task confirmed and marked complete via voice/text in EN."
+    },
+    {
+      "id": "aud_1",
+      "userId": "usr_jarvis_master",
+      "action": "Calendar Event Synchronization",
+      "resource": "Google Calendar API",
+      "permissionLevelUsed": "EXECUTE",
+      "status": "success",
+      "timestamp": "2026-11-23T08:30:27.295Z",
+      "details": "Synchronized 3 upcoming events and validated conflict matrix."
+    },
+    {
+      "id": "aud_2",
+      "userId": "usr_jarvis_master",
+      "action": "Persistent Reminder Scheduled",
+      "resource": "Reminder Engine",
+      "permissionLevelUsed": "EXECUTE",
+      "status": "success",
+      "timestamp": "2026-11-23T08:30:27.295Z",
+      "details": "Created high-priority morning workout reminder with vocal chime."
+    }
+  ]
+}
